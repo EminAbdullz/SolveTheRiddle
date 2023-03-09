@@ -1,0 +1,87 @@
+*{
+    background-color: pink;
+    font-family: Poppins;
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:rgb(112, 14, 47);
+    font-weight: bold;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+}
+form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+input{
+    padding: 10px;
+    border: 2px solid rgb(112, 14, 47) ;
+    border-radius: 25px;
+}
+::placeholder{
+    color:rgb(112, 14, 47);
+}
+button{
+    padding: 10px;
+    border-radius: 50%;
+    transition:ease-in-out .3s;
+    cursor: pointer;
+    border: 3px solid rgb(112, 14, 47) ;
+}
+button:hover{
+    transform: translateY(-7px);
+    background-color: rgb(112, 14, 47);
+    color:pink;
+}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid pink;
+}
+.forQuestion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid pink;
+}
+
+#reload{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 15px;
+    transition:ease-in-out .3s;
+}
+#reload:hover{
+    background-color: rgb(112, 14, 47);
+    color:pink;
+}
+.answer{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.answer > button {
+    font-size: 15px;
+    border-radius: 20px;
+}
+.showAnswer{
+    border: 3px solid pink;
+}
